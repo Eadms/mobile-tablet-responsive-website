@@ -1,0 +1,197 @@
+/*Elements across all pages*/
+.mobile-logo { /*mobile banner image*/
+display: none;
+}
+
+.website-banner { /*laptop banner*/
+  display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+margin-bottom: 40px;
+max-width: 100%;
+max-height: 100%;
+height: auto;
+width: auto;
+}
+
+.laptop-header { /*laptop navigation menu*/
+  display: none;
+}
+
+.homepage-text {
+text-align: center;
+}
+
+label:hover {
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  z-index: 3;
+  position: relative;
+  }
+  
+.homepage1 {
+  background-color: yellow;
+  font-weight: bold;
+}
+  
+#nav-icon {
+  font-size: 28px;
+  line-height: 50px;
+  padding-left: 1em;
+}
+  
+a {
+    text-decoration: none;
+    color: black;
+}
+  
+.about-us-homepage:hover {
+    background-color: orange;
+}
+  
+.about-us:hover {
+    background-color: orange;
+    padding: 0px 0px 0px 5px;
+}
+  
+.about-us {
+    background-color: yellow;
+    font-weight: bold;
+    padding: 10px 50px 10px 5px;
+}
+  
+.tab-mob-homepagedropdown {
+    background-color: yellow;
+    font-weight: bold;
+    padding: 10px 25px 10px 5px;
+}
+  
+.tab-mob-homepagedropdown:hover {
+    background-color: orange;
+    font-weight: bold;
+    padding: 0px 0px 0px 5px;
+}
+  
+.about-us ul, .nav-list, label {
+  padding-left: 5px;
+  padding-right: 5px;
+  line-height: 50px;
+  list-style:  none; 
+  text-decoration: none; 
+  color: black;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+.nav-list {
+  text-decoration: none;
+  list-style-type: none;
+}
+  
+.nav-list a {
+  line-height: 20px;
+  list-style:  none; 
+  text-decoration: none; 
+  color: black;
+}
+  
+label {
+    display: inline;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+  
+  
+.mob-tablet-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+  
+  
+.nav-list:hover {
+    background-color:rgb(251, 159, 124);
+}
+  
+.item:hover {
+    background-color: orange;
+}
+
+.nav-list { /*stops items from going onto second line*/
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sub-menu, .drop-down ul, input[type="checkbox"] { /*hides the checkboxes*/
+display: none;
+}
+
+#menu:checked ~ .sub-menu, .drop-down input:checked ~ ul {
+display: block;
+}
+
+.about-us input:checked ~ nav.list {
+  display: block;
+}
+
+
+/*Elements on the company background page*/ 
+
+.company-background-header, .products-heading {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.redpot {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+margin-bottom: 40px;
+max-width: 50%;
+max-height: 50%;
+height: auto;
+width: auto;
+}
+
+.gallery {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+margin-bottom: 40px;
+max-width: 60%;
+max-height: 60%;
+height: auto;
+width: auto;
+}
+.company-background-header {
+text-align: center;
+}
+
+.products-heading {
+text-align: center;
+font-size: 25px;
+}
+
+p {
+margin: 5px;
+font-family: Arial, Helvetica, sans-serif
+}
+
+
+
+/*mission statement page*/
+.mission-statement-header {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif
+}

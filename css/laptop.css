@@ -1,0 +1,166 @@
+/*Elements across all pages*/
+/*navigation menu*/
+button {
+  margin-left: 40px;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.home-page-button {
+  font-weight: bold;
+  background-color: yellow;
+}
+
+.mobile-logo {
+  display: none;
+}
+
+.topnav {
+  display: none;
+}
+
+nav {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: row;
+}
+
+button:hover {
+  background-color: rgb(233, 138, 30);
+}
+
+.dropdown-content a:hover {
+  background-color:rgb(251, 159, 124);
+}
+
+.mob-nav {
+  display: none;
+}
+.mob-header {
+  display: none;
+}
+
+.mob-homepage-header {
+  display: none;
+}
+
+.mob-tablet-header {
+  display: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.flex-container {
+  display: none;
+}
+
+/*banner image*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+.laptop-header {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Homepage*/
+.homepage-text {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+  
+/*'About us' dropdown menu*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+  
+/* Links inside the dropdown */
+.dropdown-content a {
+  text-decoration: none;
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  font-size: 14px;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*CSS for the company background page*/
+.dropbtn {
+  font-weight: bold;
+  background-color: yellow;
+}
+
+.company-background-header {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.products-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.redpot {
+  float: right;
+  margin: 20px;
+  max-width: 70%;
+  max-height: 70%;
+  height: auto;
+  width: auto;
+}
+
+.gallery {
+  float: left;
+  margin: 20px;
+  max-width: 70%;
+  max-height: 70%;
+  height: auto;
+  width: auto;
+
+}
+
+/*CSS for the mission statement page*/ 
+.mission-statement-header {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mission-statement-header {
+  font-family: Arial, Helvetica, sans-serif;
+}

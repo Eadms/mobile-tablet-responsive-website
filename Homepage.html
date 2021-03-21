@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en-au">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<link rel='stylesheet' type='text/css' media='screen and (min-width: 800px)' href='css/laptop.css'><!--CSS stylesheet for laptop-->
+	<link rel='stylesheet' type='text/css' media='screen and (min-width: 50px) and (max-width: 500px)' href='css/mobile.css'><!--CSS stylesheet for mobile-->
+	<link rel='stylesheet' type='text/css' media='screen and (min-width: 501px) and (max-width: 800px)' href='css/tablet.css'><!--CSS stylesheet for tablet-->
+	<title>Bazaar Ceramics</title>
+</head>
+	<body>
+		<header>
+			<nav class='laptop-header'><!--laptop navigation menu-->
+				<div class="dropdown">
+					<button type='button'>About us</button>
+						<div class="dropdown-content">
+							<a href='Company_background.html'>Company Background</a>
+							<a href='company_mission.html'>Mission Statement</a>
+						</div>
+				</div>
+				<button type="button" class='home-page-button'>Home Page</button>	
+				<button type="button">Product Range</button>
+				<button type="button">Shopping Cart</button>
+				<button type="button">Account</button>
+			</nav>
+			<div class="flex-container"><!--tablet/mobile header and navigation menu-->
+				<div>
+					<input type='checkbox' id='menu'/>
+					<label for='menu'>&#9776;</label><!--hamburger menu image-->
+					<div class='sub-menu'>
+						<div class='drop-down'>
+							<input type='checkbox' id='A'>
+							<label for='A' class='about-us-homepage'>About us</label>
+								<ul>
+									<li class='nav-list'><a href='Company_bg.html'>Company Background</a></li>
+									<li class='nav-list'><a href='company_mission.html'>Mission Statement</a></li>
+								</ul>
+						</div>
+						<div class='item'>
+							<input type='checkbox' id='homepage-dropdown'>
+							<label for='homepage-dropdown' class='tab-mob-homepagedropdown'><a href='Homepage.html'>Home Page</a></label><!--Homepage link-->
+						</div>
+						<div class='item'>
+							<input type='checkbox' id='product-range'>
+							<label for='product-range'>Product Range</label>
+						</div>
+						<div class='item'>
+							<input type='checkbox' id='C'>
+							<label for='C'>Shopping Cart</label>
+						</div>
+						<div class='item'>
+							<input type='checkbox' id='D'>
+							<label for='D'>Account</label>
+						</div>
+					</div>
+				</div>
+				<div class='mob-tablet-header'>Bazaar Ceramics</div>
+				<div></div>
+			</div>
+		</header>
+	<img src='images/bazaar-logo.jpg' alt='Bazaar Ceramics logo' class='mobile-logo'><!--Smaller logo banner for mobile-->
+	<img src="images/banner.jpg" alt="Bazaar Ceramics banner" class='website-banner'><!--Larger logo banner for laptop/tablet-->
+		<h2 class='laptop-header'>Welcome to Bazaar Ceramics</h2>
+			<p class='homepage-text'>Bazaar Ceramics specialises in high quality ceramics hand made in South Australia. We produce one-off pieces and domestic sets that will make a beautiful addition to your home. On this website you can view our current collections and learn more about our history, our mission and see how we hand make our ceramics.</p>
+	</body>
+</html>
